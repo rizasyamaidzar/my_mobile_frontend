@@ -3,7 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:my_mobile_frontend/data/bloc/post_bloc.dart';
 import 'package:my_mobile_frontend/data/repository/api_repository.dart';
 import 'package:my_mobile_frontend/presentation/screen/HomeScreen.dart';
-import 'package:my_mobile_frontend/service/data_repository.dart';
+import 'package:my_mobile_frontend/Service/data_repository.dart';
 void main() {
   runApp(MyApp(
     dataService: DataService(),
